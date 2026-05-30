@@ -10,7 +10,7 @@ function App() {
   ]);
 
   //comportement
-  const handledelete = (id) => {
+  const handledelete = (id : number) => {
     console.log(id);
     //copier le state
     const copieFruite = [...fruite];
