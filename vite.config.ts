@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
-  base :'/Project-Rreact/'
+  base :'/Projet-Rreact/'
 })
